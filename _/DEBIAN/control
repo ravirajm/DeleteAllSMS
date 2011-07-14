@@ -1,0 +1,10 @@
+Package: us.mxms.deleteallsms
+Name: DeleteAllSMS
+Depends: mobilesubstrate
+Version: 0.0.1-31
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Maximus
+Author: Maximus
+Section: Tweaks
+Installed-Size: 16
