@@ -1,4 +1,3 @@
-
 #import <ChatKit/ChatKit.h>
 
 
@@ -18,7 +17,7 @@
 		[compose release];
 	}
 }
-%new(v@:@:)
+%new
 - (void)deleteAll:(id)sender {
 	CKConversationList *list = MSHookIvar<CKConversationList *>(self, "_conversationList");
 	UITableView *messages = MSHookIvar<UITableView *>(self, "_table");
